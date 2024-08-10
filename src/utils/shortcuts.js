@@ -1,5 +1,5 @@
 // Function to handle keyboard shortcuts
-export const handleKeyboardShortcuts = (event) => {
+export const useShortcuts = (event) => {
     switch (event.key) {
       case 'D':
         // Handle delete action
