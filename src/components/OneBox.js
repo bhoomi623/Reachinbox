@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { useShortcuts } from '../utils/shortcuts';
+import {useShortcuts} from '../utils/shortcuts';
 
 function OneBox() {
   const [threads, setThreads] = useState([]);
